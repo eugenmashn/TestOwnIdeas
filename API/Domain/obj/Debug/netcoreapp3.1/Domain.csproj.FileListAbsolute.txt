@@ -1,0 +1,12 @@
+D:\Source\GitHub\TestOwnIdeas\API\Domain\bin\Debug\netcoreapp3.1\Domain.deps.json
+D:\Source\GitHub\TestOwnIdeas\API\Domain\bin\Debug\netcoreapp3.1\Domain.dll
+D:\Source\GitHub\TestOwnIdeas\API\Domain\bin\Debug\netcoreapp3.1\Domain.pdb
+D:\Source\GitHub\TestOwnIdeas\API\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfoInputs.cache
+D:\Source\GitHub\TestOwnIdeas\API\Domain\obj\Debug\netcoreapp3.1\Domain.AssemblyInfo.cs
+D:\Source\GitHub\TestOwnIdeas\API\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.CoreCompileInputs.cache
+D:\Source\GitHub\TestOwnIdeas\API\Domain\obj\Debug\netcoreapp3.1\Domain.dll
+D:\Source\GitHub\TestOwnIdeas\API\Domain\obj\Debug\netcoreapp3.1\Domain.pdb
+D:\Source\GitHub\TestOwnIdeas\API\Domain\bin\Debug\netcoreapp3.1\Domain.runtimeconfig.json
+D:\Source\GitHub\TestOwnIdeas\API\Domain\bin\Debug\netcoreapp3.1\Domain.runtimeconfig.dev.json
+D:\Source\GitHub\TestOwnIdeas\API\Domain\obj\Debug\netcoreapp3.1\Domain.genruntimeconfig.cache
+D:\Source\GitHub\TestOwnIdeas\API\Domain\obj\Debug\netcoreapp3.1\Domain.csproj.AssemblyReference.cache

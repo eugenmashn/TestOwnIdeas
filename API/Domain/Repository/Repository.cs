@@ -18,37 +18,37 @@ namespace Domain.Repository
             context = dbContext;
         }
 
-        public async Task<T> Get(string id)
+        public virtual async Task<T> Get(string id)
             => await context.Set<T>().FindAsync(id);
 
-        public async Task<T> Find(Expression<Func<T, bool>> predicate)
+        public virtual async Task<T> Find(Expression<Func<T, bool>> predicate)
             => await context.Set<T>().FirstOrDefaultAsync(predicate);
 
 
-        public async Task<IEnumerable<T>> GetAll()
+        public virtual async Task<IEnumerable<T>> GetAll()
             => await context.Set<T>().ToListAsync();
-        public async Task<IEnumerable<T>> GetWhere(Expression<Func<T, bool>> predicate)
+        public virtual async Task<IEnumerable<T>> GetWhere(Expression<Func<T, bool>> predicate)
             => await context.Set<T>().Where(predicate).ToListAsync();
 
 
-        public void Add(T entity)
+        public virtual void Add(T entity)
          =>  context.Set<T>().Add(entity);
         
-        public void AddRange(IEnumerable<T> emtities)
+        public virtual void AddRange(IEnumerable<T> emtities)
          =>  context.Set<T>().AddRange(emtities);
 
 
-        public void Update(T entity)
+        public virtual void Update(T entity)
          =>  context.Set<T>().Update(entity);
         
-        public void UpdateRange(IEnumerable<T> emtities)
+        public virtual void UpdateRange(IEnumerable<T> emtities)
          =>  context.Set<T>().UpdateRange(emtities);
         
         
-        public void Delete(T entity)
+        public virtual void Delete(T entity)
          =>  context.Set<T>().Update(entity);
 
-        public void DeleteRange(IEnumerable<T> emtities)
+        public virtual void DeleteRange(IEnumerable<T> emtities)
             =>  context.Set<T>().UpdateRange(emtities);
 
     }
